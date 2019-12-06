@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<!--<title></title>-->
+<style type="text/css">
+body {background-color: black;}
+pre {
+	font-weight: normal;
+	color: #bbb;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+b {font-weight: normal}
+b.BLK {color: #000}
+b.BLU {color: #00a}
+b.GRN {color: #0a0}
+b.CYN {color: #0aa}
+b.RED {color: #a00}
+b.MAG {color: #a0a}
+b.YEL {color: #aa0}
+b.WHI {color: #aaa}
+b.HIK {color: #555}
+b.HIB {color: #55f}
+b.HIG {color: #5f5}
+b.HIC {color: #5ff}
+b.HIR {color: #f55}
+b.HIM {color: #f5f}
+b.HIY {color: #ff5}
+b.HIW {color: #fff}
+b.BOLD {color: #fff}
+b.BBLK {background-color: #000}
+b.BBLU {background-color: #00a}
+b.BGRN {background-color: #0a0}
+b.BCYN {background-color: #0aa}
+b.BRED {background-color: #a00}
+b.BMAG {background-color: #a0a}
+b.BYEL {background-color: #aa0}
+b.BWHI {background-color: #aaa}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.BLI {text-decoration: blink}
+b.UNDBLI {text-decoration: underline blink}
+</style>
+</head>
+<body>
+<pre> .gitattribute                                  |    14 <b class="GRN">+</b>
+ .gitignore                                     |     1 <b class="GRN">+</b>
+ .pr-preview.json                               |     4 <b class="GRN">+</b>
+ .travis.yml                                    |    10 <b class="GRN">+</b><b class="RED">-</b>
+ Makefile                                       |     9 <b class="GRN">+</b><b class="RED">-</b>
+ README.md                                      |     4 <b class="GRN">+</b><b class="RED">-</b>
+ images/HRTF_panner.png                         |   Bin <b class="RED">39207</b> -&gt; <b class="GRN">16473</b> bytes
+ images/absn-basic.graffle                      |  4204 <b class="GRN">+++++++++</b>
+ images/absn-basic.png                          |   Bin <b class="RED">0</b> -&gt; <b class="GRN">33811</b> bytes
+ images/absn-half-sample-rate.graffle           |  4410 <b class="GRN">++++++++++</b>
+ images/absn-half-sample-rate.png               |   Bin <b class="RED">0</b> -&gt; <b class="GRN">32707</b> bytes
+ images/absn-offset.graffle                     |  4287 <b class="GRN">+++++++++</b>
+ images/absn-offset.png                         |   Bin <b class="RED">0</b> -&gt; <b class="GRN">36591</b> bytes
+ images/absn-reversed-loop.graffle              |  3900 <b class="GRN">+++++++++</b>
+ images/absn-reversed-loop.png                  |   Bin <b class="RED">0</b> -&gt; <b class="GRN">31340</b> bytes
+ images/absn-slow-loop.graffle                  |  4841 <b class="GRN">++++++++++</b>
+ images/absn-slow-loop.png                      |   Bin <b class="RED">0</b> -&gt; <b class="GRN">43980</b> bytes
+ images/absn-subsample-loop.graffle             |  4719 <b class="GRN">++++++++++</b>
+ images/absn-subsample-loop.png                 |   Bin <b class="RED">0</b> -&gt; <b class="GRN">39238</b> bytes
+ images/audioparam-automation-clipping.png      |   Bin <b class="RED">0</b> -&gt; <b class="GRN">24146</b> bytes
+ images/audioparam-automation1.png              |   Bin <b class="RED">55775</b> -&gt; <b class="GRN">22792</b> bytes
+ images/audioworklet-concept.png                |   Bin <b class="RED">0</b> -&gt; <b class="GRN">22401</b> bytes
+ images/audioworklet-instantiation-sequence.png |   Bin <b class="RED">0</b> -&gt; <b class="GRN">55569</b> bytes
+ images/audioworklet.graffle                    |   Bin <b class="RED">0</b> -&gt; <b class="GRN">6615</b> bytes
+ images/cancel-linear.graffle                   |   Bin <b class="RED">0</b> -&gt; <b class="GRN">2140</b> bytes
+ images/cancel-linear.svg                       |     3 <b class="GRN">+</b>
+ images/cancel-setTarget.graffle                |   Bin <b class="RED">0</b> -&gt; <b class="GRN">2178</b> bytes
+ images/cancel-setTarget.svg                    |     3 <b class="GRN">+</b>
+ images/cancel-setValueCurve.graffle            |   Bin <b class="RED">0</b> -&gt; <b class="GRN">2187</b> bytes
+ images/cancel-setValueCurve.svg                |     3 <b class="GRN">+</b>
+ images/channel-merger.png                      |   Bin <b class="RED">22912</b> -&gt; <b class="GRN">9507</b> bytes
+ images/channel-splitter.png                    |   Bin <b class="RED">29877</b> -&gt; <b class="GRN">13441</b> bytes
+ images/chrome-logo.png                         |   Bin <b class="RED">0</b> -&gt; <b class="GRN">8578</b> bytes
+ images/convolver-diagram.graffle               |   Bin <b class="RED">0</b> -&gt; <b class="GRN">3671</b> bytes
+ images/convolver-diagram.png                   |   Bin <b class="RED">0</b> -&gt; <b class="GRN">106503</b> bytes
+ images/dj.png                                  |   Bin <b class="RED">8707</b> -&gt; <b class="GRN">3530</b> bytes
+ images/drum-machine.png                        |   Bin <b class="RED">29378</b> -&gt; <b class="GRN">8612</b> bytes
+ images/dynamic-allocation.png                  |   Bin <b class="RED">29086</b> -&gt; <b class="GRN">13941</b> bytes
+ images/edge-logo.png                           |   Bin <b class="RED">0</b> -&gt; <b class="GRN">8069</b> bytes
+ images/fft-convolver.png                       |   Bin <b class="RED">51995</b> -&gt; <b class="GRN">23541</b> bytes
+ images/firefox-logo.png                        |   Bin <b class="RED">0</b> -&gt; <b class="GRN">37534</b> bytes
+ images/impulse-response.png                    |   Bin <b class="RED">63181</b> -&gt; <b class="GRN">30982</b> bytes
+ images/latency.png                             |   Bin <b class="RED">43501</b> -&gt; <b class="GRN">24855</b> bytes
+ images/mixer-architecture-new.png              |   Bin <b class="RED">13992</b> -&gt; <b class="GRN">5436</b> bytes
+ images/mixer-architecture-old.png              |   Bin <b class="RED">18575</b> -&gt; <b class="GRN">6735</b> bytes
+ images/mixer-gain-structure.png                |   Bin <b class="RED">50753</b> -&gt; <b class="GRN">22966</b> bytes
+ images/modular-routing1.png                    |   Bin <b class="RED">7417</b> -&gt; <b class="GRN">3259</b> bytes
+ images/modular-routing2.png                    |   Bin <b class="RED">44599</b> -&gt; <b class="GRN">15903</b> bytes
+ images/modular-routing3.png                    |   Bin <b class="RED">18639</b> -&gt; <b class="GRN">5878</b> bytes
+ images/opera-logo.png                          |   Bin <b class="RED">0</b> -&gt; <b class="GRN">14663</b> bytes
+ images/reverb-convolver.png                    |   Bin <b class="RED">107008</b> -&gt; <b class="GRN">55467</b> bytes
+ images/reverb-matrixing.png                    |   Bin <b class="RED">68867</b> -&gt; <b class="GRN">29249</b> bytes
+ images/safari-logo.png                         |   Bin <b class="RED">0</b> -&gt; <b class="GRN">30946</b> bytes
+ images/unity-gain-summing-junction.png         |   Bin <b class="RED">12015</b> -&gt; <b class="GRN">4540</b> bytes
+ images/visualizer-gl-old.png                   |   Bin <b class="RED">42273</b> -&gt; <b class="GRN">23568</b> bytes
+ images/visualizer2-gl.png                      |   Bin <b class="RED">206820</b> -&gt; <b class="GRN">101259</b> bytes
+ implementation-report.html                     |   122 <b class="GRN">+</b>
+ index.html                                     | 10689 <b class="GRN">+++++++++++++++++</b><b class="RED">------</b>
+ respec-w3c-common-3.3.2.js                     |    31 <b class="GRN">+</b>
+ style.css                                      |     1 <b class="RED">-</b>
+ tidyconf.txt                                   |     1 <b class="GRN">+</b>
+ webaudio-CR-transition.md                      |   166 <b class="GRN">+</b>
+ 62 files changed, 34501 insertions(+), 2921 deletions(-)
+</pre>
+</body>
+</html>
